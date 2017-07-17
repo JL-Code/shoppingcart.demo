@@ -8,6 +8,37 @@ Vue.use(Vuex)
 const state = {
   added: [],
   checkoutStatus: null,
+  spu: [{
+      color: '黑色',
+      storeage: '标准版4GB内存+128GB',
+      price: 3499
+    },
+    {
+      color: '皓月白',
+      storeage: '标准版4GB内存+128GB',
+      price: 3499
+    },
+    {
+      color: '黑金',
+      storeage: '标准版4GB内存+128GB',
+      price: 3499
+    },
+    {
+      color: '黑色',
+      storeage: '尊享版6GB内存+256GB',
+      price: 3999
+    },
+    {
+      color: '皓月白',
+      storeage: '尊享版6GB内存+256GB',
+      price: 3999
+    },
+    {
+      color: '黑金',
+      storeage: '尊享版6GB内存+256GB',
+      price: 3999
+    }
+  ],
   products: [{
       id: 1,
       name: '小米MIX 黑色 标准版4GB内存+128GB',
