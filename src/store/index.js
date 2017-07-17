@@ -10,7 +10,7 @@ const state = {
   checkoutStatus: null,
   product: {
     id: 1,
-    name: '小米MIX 黑金 尊享版6GB内存+256GB',
+    name: '小米MIX',
     count: 1,
     selected: false,
     currStyle: {
