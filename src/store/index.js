@@ -8,100 +8,40 @@ Vue.use(Vuex)
 const state = {
   added: [],
   checkoutStatus: null,
-  spu: [{
-      color: '黑色',
-      storeage: '标准版4GB内存+128GB',
-      price: 3499
-    },
-    {
-      color: '皓月白',
-      storeage: '标准版4GB内存+128GB',
-      price: 3499
-    },
-    {
-      color: '黑金',
-      storeage: '标准版4GB内存+128GB',
-      price: 3499
-    },
-    {
-      color: '黑色',
-      storeage: '尊享版6GB内存+256GB',
-      price: 3999
-    },
-    {
-      color: '皓月白',
-      storeage: '尊享版6GB内存+256GB',
-      price: 3999
-    },
-    {
-      color: '黑金',
-      storeage: '尊享版6GB内存+256GB',
-      price: 3999
-    }
-  ],
   products: [{
-      id: 1,
-      name: '小米MIX 黑色 标准版4GB内存+128GB',
-      count: 1,
-      selected: false,
-      color: '黑色',
-      imgurl: 'https://i8.mifile.cn/a1/pms_1490088813.05223210!560x560.jpg',
-      disable: false,
-      storeage: '标准版4GB内存+128GB',
-      price: 3499
-    }, {
-      id: 2,
-      name: '小米MIX 皓月白 标准版4GB内存+128GB',
-      count: 1,
-      selected: false,
-      color: '皓月白',
-      imgurl: 'https://i8.mifile.cn/a1/pms_1490088812.19079238!560x560.jpg',
-      disable: false,
-      storeage: '标准版4GB内存+128GB',
-      price: 3499
-    }, {
-      id: 3,
-      name: '小米MIX 黑金 标准版4GB内存+128GB',
-      count: 1,
-      selected: false,
-      color: '黑金',
-      imgurl: '',
-      disable: true,
-      storeage: '标准版4GB内存+128GB',
+    id: 1,
+    name: '小米MIX 黑金 尊享版6GB内存+256GB',
+    count: 1,
+    selected: false,
+    currStyle: {
+      text: '黑色',
+      imgurl: 'https://i8.mifile.cn/a1/pms_1490088813.05223210!560x560.jpg'
+    },
+    currStoreage: {
+      text: '标准版4GB内存+128GB',
       price: 3499
     },
-    {
-      id: 4,
-      name: '小米MIX 黑色 标准版4GB内存+128GB',
-      count: 1,
-      selected: false,
-      color: '黑色',
+    styles: [{
+      text: '黑色',
       imgurl: 'https://i8.mifile.cn/a1/pms_1490088813.05223210!560x560.jpg',
-      disable: true,
-      storeage: '尊享版6GB内存+256GB',
-      price: 3999
+      disable: false
     }, {
-      id: 5,
-      name: '小米MIX 皓月白 尊享版6GB内存+256GB',
-      count: 1,
-      selected: false,
-      color: '皓月白',
+      text: '皓月白',
       imgurl: 'https://i8.mifile.cn/a1/pms_1490088812.19079238!560x560.jpg',
-      disable: true,
-      storeage: '尊享版6GB内存+256GB',
-      price: 3999
+      disable: false
     }, {
-      id: 6,
-      name: '小米MIX 黑金 尊享版6GB内存+256GB',
-      count: 1,
-      selected: false,
-      color: '黑金',
-      imgurl: 'https://i8.mifile.cn/a1/pms_1490088813.05223210!560x560.jpg',
-      disable: false,
-      storeage: '尊享版6GB内存+256GB',
+      text: '黑金',
+      imgurl: '',
+      disable: true
+    }],
+    storeages: [{
+      text: '标准版4GB内存+128GB',
+      price: 3499
+    }, {
+      text: '尊享版6GB内存+256GB',
       price: 3999
-    }
-  ]
+    }]
+  }]
 }
 
 const getters = {
