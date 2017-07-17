@@ -8,7 +8,7 @@ Vue.use(Vuex)
 const state = {
   added: [],
   checkoutStatus: null,
-  products: [{
+  product: {
     id: 1,
     name: '小米MIX 黑金 尊享版6GB内存+256GB',
     count: 1,
@@ -41,7 +41,7 @@ const state = {
       text: '尊享版6GB内存+256GB',
       price: 3999
     }]
-  }]
+  }
 }
 
 const getters = {
