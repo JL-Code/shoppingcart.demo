@@ -1,0 +1,6 @@
+export const ADD_TO_CART = 'add_to_cart'
+export const CHECKOUT_CART = 'checkout_cart'
+export const CHECKOUT_REQUEST = 'checkout_request'
+export const CHECKOUT_SUCCESS = 'checkout_success'
+export const CHECKOUT_FAILURE = 'checkout_failure'
+export const DELTE_PRODUCT = 'delete_product'
