@@ -46,7 +46,7 @@ ol {
   color: red;
 }
 
-a {
+#app a {
   text-decoration: none;
   color: #2c3e50;
 }
