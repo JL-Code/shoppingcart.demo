@@ -34,8 +34,16 @@ ol {
   color: #2c3e50;
 }
 
-.clearfix {
+#app .container {
+  padding: 10px 0;
+}
+
+#app .clearfix {
   overflow: hidden
+}
+
+#app .router-link-active {
+  color: red;
 }
 
 a {
@@ -73,5 +81,9 @@ a {
 .price {
   font-weight: normal;
   color: #ff6700;
+}
+
+.ml-30 {
+  margin-left: 30px;
 }
 </style>

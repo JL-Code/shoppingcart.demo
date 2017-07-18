@@ -1,6 +1,7 @@
 <template>
     <div class="header">
         <router-link class="a-header pull-left" to="/">小米MIX</router-link>
+        <router-link class="a-header pull-left ml-30" to="/router">路由测试</router-link>
         <router-link class="a-header pull-right" to="/cart">购物车（{{cartCount}}）</router-link>
     </div>
 </template>
